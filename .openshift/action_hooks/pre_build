@@ -1,0 +1,7 @@
+#!/bin/bash
+# This is a simple script and will be executed on your CI system if 
+# available.  Otherwise it will execute while your application is stopped
+# before the build step.  This script gets executed directly, so it
+# could be python, php, ruby, etc.
+
+/usr/bin/mvn exec:java -Dexec.args="${OPENSHIFT_APP_DIR}/jbossas-7/standalone/configuration/modules/com/google/appengine/main/appengine-api-1.0-sdk-1.6.4.jar"
