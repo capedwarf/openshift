@@ -1,7 +1,7 @@
 =Running CapeDwarf on OpenShift=
 
 
-Follow this instructions to run GAE applications on OpenShift PaaS.
+===Follow this instructions to run GAE applications on OpenShift PaaS.===
 
 # [https://openshift.redhat.com/app/account/new Register] for OpenShift
 # Follow the [https://openshift.redhat.com/app/getting_started instructions] to install '''client tools''' (step one)
