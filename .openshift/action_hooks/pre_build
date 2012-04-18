@@ -4,4 +4,10 @@
 # before the build step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
 
-/usr/bin/mvn -f ${OPENSHIFT_RUNTIME_DIR}repo/.openshift/action_hooks/pom.xml exec:java -Dexec.args="${OPENSHIFT_APP_DIR}/jbossas-7/standalone/configuration/modules/com/google/appengine/main/appengine-api-1.0-sdk-1.6.4.jar"
+/usr/bin/java -classpath \
+${OPENSHIFT_GEAR_DIR}repo/.openshift/action_hooks/maven-transformer-plugin-1.0.0-SNAPSHOT.jar:\
+${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/org/javassist/main/javassist-3.15.0-GA.jar:\
+${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/org/hibernate/search/main/hibernate-search-engine-4.2.0-SNAPSHOT.jar:\
+${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/org/jboss/capedwarf/main/* \
+org.jboss.capedwarf.bytecode.CapedwarfTransformerMojo \
+${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/com/google/appengine/main/appengine-api-1.0-sdk-1.6.4.jar
