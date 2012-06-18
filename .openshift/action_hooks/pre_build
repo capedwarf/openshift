@@ -10,4 +10,4 @@ ${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/org/javassist/ma
 ${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/org/hibernate/search/main/hibernate-search-engine-4.2.0-SNAPSHOT.jar:\
 ${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/org/jboss/capedwarf/main/* \
 org.jboss.capedwarf.bytecode.CapedwarfTransformerMojo \
-${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/com/google/appengine/main/appengine-api-1.0-sdk-1.6.4.jar
+${OPENSHIFT_GEAR_DIR}jbossas-7/standalone/configuration/modules/com/google/appengine/main/appengine-api-1.0-sdk-1.6.6.jar

@@ -28,8 +28,8 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-threads-7.1.2.Final-SNAPSHOT.jar"/>
-        <resource-root path="jboss-as-threads-7.1.2.Final-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-threads-7.2.0.Alpha1-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-threads-7.2.0.Alpha1-SNAPSHOT.jar"/>
         <!-- Insert resources here -->
     </resources>
 

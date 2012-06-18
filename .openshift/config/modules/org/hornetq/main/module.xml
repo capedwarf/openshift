@@ -25,8 +25,8 @@
 <module xmlns="urn:jboss:module:1.1" name="org.hornetq">
     <resources>
         <resource-root path="lib"/>
-        <resource-root path="hornetq-core-2.2.13.Final.jar"/>
-        <resource-root path="hornetq-jms-2.2.13.Final.jar"/>
+        <resource-root path="hornetq-core-2.2.16.Final.jar"/>
+        <resource-root path="hornetq-jms-2.2.16.Final.jar"/>
         <!-- Insert resources here -->
     </resources>
 

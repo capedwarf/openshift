@@ -28,8 +28,8 @@
     </properties>
 
     <resources>
-        <resource-root path="jaxb-impl-2.2.4.jar"/>
-        <resource-root path="jaxb-xjc-2.2.4.jar"/>
+        <resource-root path="jaxb-impl-2.2.5.jar"/>
+        <resource-root path="jaxb-xjc-2.2.5.jar"/>
         <!-- Insert resources here -->
     </resources>
 

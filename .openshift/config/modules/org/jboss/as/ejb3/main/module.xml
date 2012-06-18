@@ -26,7 +26,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-ejb3-7.1.2.Final-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-ejb3-7.2.0.Alpha1-SNAPSHOT.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -64,8 +64,6 @@
         <module name="org.jboss.as.threads"/>
         <module name="org.jboss.as.transactions"/>
         <module name="org.jboss.classfilewriter"/>
-        <module name="org.jboss.interceptor"/>
-        <module name="org.jboss.interceptor.spi"/>
         <module name="org.jboss.threads"/>
         <module name="org.jboss.jboss-transaction-spi"/>
         <module name="org.jboss.common-core"/>

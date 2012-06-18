@@ -28,14 +28,13 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-clustering-impl-7.1.2.Final-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-clustering-impl-7.2.0.Alpha1-SNAPSHOT.jar"/>
         <!-- Insert resources here -->
     </resources>
 
     <dependencies>
         <module name="org.jboss.as.clustering.api"/>
         <module name="org.jboss.as.clustering.common"/>
-        <module name="org.jboss.as.clustering.jgroups"/>
         <module name="org.jboss.as.server"/>
         <module name="org.jboss.logging"/>
         <module name="org.jboss.marshalling"/>

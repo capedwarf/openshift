@@ -30,7 +30,7 @@
     <main-class name="org.jboss.as.host.controller.Main"/>
 
     <resources>
-        <resource-root path="jboss-as-host-controller-7.1.2.Final-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-host-controller-7.2.0.Alpha1-SNAPSHOT.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -57,6 +57,7 @@
         <module name="org.jboss.modules"/>
         <module name="org.jboss.msc"/>
         <module name="org.jboss.remoting3"/>
+        <module name="org.jboss.remoting3.remoting-jmx"/>
         <module name="org.jboss.sasl"/>
         <module name="org.jboss.stdio"/>
         <module name="org.jboss.threads"/>

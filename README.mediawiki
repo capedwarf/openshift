@@ -20,6 +20,7 @@ cd mygaeapp
 git remote add capedwarf-openshift https://github.com/capedwarf/openshift.git
 git pull -s recursive -X theirs capedwarf-openshift master
 </pre>
+* Please be patient with pull, it takes a while, because it contains also an JBoss AS update.
 
 <ol><li value="6">
 Copy your GAE application to mygaeapp/deployments folder.<br />

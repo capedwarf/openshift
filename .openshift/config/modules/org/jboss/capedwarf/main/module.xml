@@ -40,6 +40,7 @@
         <resource-root path="capedwarf-mail-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-memcache-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-oauth-1.0.0-SNAPSHOT.jar"/>
+        <resource-root path="capedwarf-search-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-tasks-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-urlfetch-1.0.0-SNAPSHOT.jar"/>
         <resource-root path="capedwarf-users-1.0.0-SNAPSHOT.jar"/>
@@ -58,6 +59,9 @@
         <module name="javax.mail.api"/>
         <module name="javax.servlet.api"/>
         <module name="org.apache.velocity"/>
+        <module name="org.bouncycastle.bcmail"/>
+        <module name="org.bouncycastle.bcpkix"/>
+        <module name="org.bouncycastle.bcprov"/>
         <module name="org.jboss.modules"/>
         <module name="org.jivesoftware.smack"/>
         <module name="org.javassist"/>
@@ -67,7 +71,7 @@
         <module name="org.hibernate.search"/>
         <module name="org.apache.lucene"/>
         <module name="org.apache.httpcomponents"/>
-        <module name="org.picketlink.fed"/>
+        <module name="org.picketlink"/>
         <module name="org.picketlink.social"/>
         <module name="com.google.appengine"/>
     </dependencies>

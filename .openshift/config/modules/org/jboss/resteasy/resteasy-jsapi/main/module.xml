@@ -28,8 +28,8 @@
     </properties>
 
     <resources>
-        <resource-root path="resteasy-jsapi-2.3.2.Final.jar"/>
-	<resource-root path="resteasy-jsapi-2.3.2.Final-jandex.jar"/>
+        <resource-root path="resteasy-jsapi-2.3.3.Final.jar"/>
+	<resource-root path="resteasy-jsapi-2.3.3.Final-jandex.jar"/>
         <!-- Insert resources here -->
     </resources>
 

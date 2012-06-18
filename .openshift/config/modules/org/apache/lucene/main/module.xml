@@ -25,11 +25,13 @@
 <module xmlns="urn:jboss:module:1.0" name="org.apache.lucene">
 
     <resources>
-        <resource-root path="lucene-core-3.5.0.jar"/>
+        <resource-root path="lucene-core-3.6.0.jar"/>
+        <resource-root path="lucene-analyzers-3.6.0.jar"/>
         <!-- Insert resources here -->
     </resources>
 
     <dependencies>
+        <module name="javax.api"/>
     </dependencies>
 
 </module>

@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-clustering-ejb3-infinispan-7.1.2.Final-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-clustering-ejb3-infinispan-7.2.0.Alpha1-SNAPSHOT.jar"/>
         <!-- Insert resources here -->
     </resources>
 
@@ -39,6 +39,7 @@
         <module name="org.jboss.as.clustering.infinispan"/>
         <module name="org.jboss.as.clustering.registry"/>
         <module name="org.jboss.as.ejb3"/>
+        <module name="org.jboss.as.network"/>
         <module name="org.jboss.ejb-client"/>
         <module name="javax.api"/>
         <module name="javax.transaction.api"/>

@@ -28,7 +28,7 @@
     </properties>
 
     <resources>
-        <resource-root path="jboss-as-webservices-server-integration-7.1.2.Final-SNAPSHOT.jar"/>
+        <resource-root path="jboss-as-webservices-server-integration-7.2.0.Alpha1-SNAPSHOT.jar"/>
         <resource-root path="jbossws-cxf-resources-4.0.2.GA-jboss711.jar"/>
         <!-- Insert resources here -->
     </resources>
