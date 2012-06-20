@@ -28,7 +28,10 @@ If you want to build your project using maven on OpenShift copy sources to '''sr
 <li>Push CapeDwarf modules and your app to OpenShift using:</li>
 </ol>
 	
-<pre>git push origin</pre>
+<pre>
+git add deployments/*
+git push origin
+</pre>
 	
 If you are redeploying your app, replace archive file in deployments dir (or src if building on OpenShift) and commit/push changes to OpenShift:
 
