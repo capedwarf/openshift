@@ -30,6 +30,7 @@ If you want to build your project using maven on OpenShift copy sources to '''sr
 	
 <pre>
 git add deployments/*
+git commit -m"Deploy sample app."
 git push origin
 </pre>
 	
